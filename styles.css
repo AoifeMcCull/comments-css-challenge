@@ -1,0 +1,58 @@
+body {
+background-color:hsl(228, 33%, 97%);
+font-family: 'rubik', sans-serif;
+}
+
+.comment {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    margin:10px auto;
+    width:50%;
+    border-radius: 10px;
+}
+
+.vote-panel {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(223, 19%, 93%);
+    color: hsl(238, 40%, 52%);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width: 40px;
+    height: 80px;
+    align-self: center;
+    margin: 0px 15px;
+}
+
+.vote-button {
+    border: none;
+    background-color: hsl(223, 19%, 93%);
+    color: hsl(239, 57%, 85%);
+    font-size: 16px;
+}
+
+.vote-total {
+    align-self: center;
+    font-weight: bold;
+    font
+}
+.reply-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:auto;
+    align-items: flex-end;
+
+}
+
+.comment-reply {
+    background-color: hsl(0, 0%, 100%);
+
+    width:90%;
+    padding: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+}
